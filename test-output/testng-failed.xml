@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNg_Framework.AssertionDemo">
+      <class name="pomFrameworkPractice.CallingPOM">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyHomePage"/>
-          <include name="logout"/>
+          <include name="executionMethod"/>
         </methods>
-      </class> <!-- testNg_Framework.AssertionDemo -->
+      </class> <!-- pomFrameworkPractice.CallingPOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

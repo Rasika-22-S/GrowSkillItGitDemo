@@ -5,6 +5,35 @@
 	<groupId>com.GrowSkillIT</groupId>
 	<artifactId>GrowSkillIT_Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	
+	  <build>
+    <pluginManagement>
+      <plugins>
+       <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.10.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M7</version>
+          <configuration>
+            <suiteXmlFiles>
+            
+            <suiteXmlFile>Groups_testng.xml</suiteXmlFile>
+            <!--suiteXmlFile>target\surefire-reports\testng-failed.xml</suiteXmlFile-->
+            </suiteXmlFiles>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 
 	<dependencies>
 		<!--
@@ -23,6 +52,18 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.GrowSkillItCucumberBDD</groupId>
+			<artifactId>DemoGrowSkillItCucumberBDD</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.4.0</version>
+</dependency>
 	</dependencies>
 
 
