@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-18T12:27:54 IST" name="Suite" finished-at="2025-05-18T12:27:55 IST" duration-ms="116">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupDemo.test3()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test3" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test6()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test6" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test7()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test7" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test9()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test9" class="testNg_Framework.GroupDemo"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupDemo.test5()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test5" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test6()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test6" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test7()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test7" class="testNg_Framework.GroupDemo"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="GroupDemo.test3()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test3" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test5()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test5" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test7()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test7" class="testNg_Framework.GroupDemo"/>
+        <method signature="GroupDemo.test8()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" name="test8" class="testNg_Framework.GroupDemo"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-18T12:27:54 IST" name="Test" finished-at="2025-05-18T12:27:55 IST" duration-ms="116">
+      <class name="testNg_Framework.GroupDemo">
+        <test-method signature="test3()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test3" finished-at="2025-05-18T12:27:54 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test5()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test5" finished-at="2025-05-18T12:27:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test6" finished-at="2025-05-18T12:27:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test7" finished-at="2025-05-18T12:27:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test8" finished-at="2025-05-18T12:27:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method signature="test9()[pri:0, instance:testNg_Framework.GroupDemo@55b7a4e0]" started-at="2025-05-18T12:27:54 IST" name="test9" finished-at="2025-05-18T12:27:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+      </class> <!-- testNg_Framework.GroupDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
